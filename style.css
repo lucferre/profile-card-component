@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: inherit;
+}
+
+.card {
+    background-color: orangered;
+}
+
+.card_header {
+    background-color: blue;
+}
+
+.card_body {
+    background-color: green;
+}
+
+.card_footer {
+    background-color: red;
+}
+
+.stats {
+    background-color: violet;
+}
