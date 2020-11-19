@@ -1,3 +1,10 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --des-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -8,22 +15,43 @@ body {
     box-sizing: inherit;
 }
 
-.card {
-    background-color: orangered;
+p {
+    background-color: lightblue;
 }
 
-.card_header {
-    background-color: blue;
+.main-text {
+    font-size: 18px;
+}
+
+.card {
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.card_head {
+    background-image: url(./images/bg-pattern-card.svg);
+    height: 125px;
 }
 
 .card_body {
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card_footer {
     background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .stats {
     background-color: violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
