@@ -6,28 +6,38 @@
 }
 
 html {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
+    background-color: var(--dark-cyan);
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 p {
-    background-color: lightblue;
+    margin: 0;
 }
 
 .main-text {
     font-size: 18px;
+    font-weight: 700;
+}
+
+.age {
+    font-weight: 400;
 }
 
 .card {
-    background-color: orangered;
+    margin: 0 auto;
+    max-width: 345px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .card_head {
@@ -36,22 +46,35 @@ p {
 }
 
 .card_body {
-    background-color: green;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 1.5px solid hsl(0, 0%, 95%);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    transform: translateY(-50%);
 }
 
 .card_footer {
-    background-color: red;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    background-color: #fff;
+    padding: 25px 0;
 }
 
 .stats {
-    background-color: violet;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.tags {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--dark-grayish-blue);
 }
