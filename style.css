@@ -10,7 +10,18 @@ html {
 }
 
 body {
-    background-color: var(--dark-cyan);
+    background-color: 
+        var(--dark-cyan);
+    background-image: 
+        url(./images/bg-pattern-top.svg),
+        url(./images/bg-pattern-bottom.svg);
+    background-position-x: 
+        230%, -125%;
+    background-position-y: 
+        -150%, 225%;
+    background-repeat: 
+        no-repeat;
+    background-size: 500px 500px, 500px 500px;
     box-sizing: inherit;
     margin: 0;
     padding: 0;
